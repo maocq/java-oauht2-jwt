@@ -22,3 +22,13 @@ management:
         enabled: true
 cors:
   allowed-origins: "http://localhost:4200,http://localhost:8080"
+
+azure:
+  client-id: "78cdc600-c99c-4db3-9556-3eb31a4c0c60"
+  tenant-id: "e7c91a18-425d-4820-aedf-09d9c1c63cd7"
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
